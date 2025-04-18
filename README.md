@@ -1,5 +1,4 @@
-📚 Sistema de Microservicios con Spring Boot
-Aplicación distribuida basada en microservicios para la gestión de inmuebles, compras, autenticación y descubrimiento de servicios.
+Aplicación distribuida desarrollada con Spring Boot, compuesta por varios microservicios independientes para gestionar inmuebles, compras y autenticación de usuarios. Cada microservicio se comunica mediante API REST, permitiendo una arquitectura modular, escalable y de fácil mantenimiento.
 
 ✨ Tecnologías principales:
 
