@@ -1,37 +1,50 @@
-🛠️ Sistema de Microservicios con Spring Boot
-Este repositorio contiene una solución basada en arquitectura de microservicios desarrollada con Spring Boot, que integra componentes esenciales para la construcción de sistemas distribuidos robustos, seguros y escalables. La aplicación implementa autenticación y autorización mediante JWT, comunicación entre servicios mediante OpenFeign, descubrimiento de servicios con Eureka Server y enrutamiento centralizado a través de un API Gateway. Además, utiliza bases de datos relacionales como MySQL y PostgreSQL para el almacenamiento persistente de datos.
+📚 Sistema de Microservicios con Spring Boot
+Aplicación distribuida basada en microservicios para la gestión de inmuebles, compras, autenticación y descubrimiento de servicios.
 
-📦 Estructura de Microservicios
-spring-boot-microservice-1-inmueble
-Servicio responsable de la gestión de inmuebles, que incluye operaciones CRUD utilizando JPA y conexión con base de datos relacional.
+✨ Tecnologías principales:
 
-spring-boot-microservice-2-compra
-Microservicio encargado de la gestión de compras asociadas a inmuebles.
+Backend: Java + Spring Boot (Spring Cloud, Spring Security, Spring Data JPA, Spring MVC).
 
-spring-boot-microservice-3-api-gateway
-Gateway central que enruta las solicitudes HTTP hacia los microservicios correspondientes. Implementa seguridad con Spring Security y validación de tokens JWT.
+Bases de datos: MySQL / PostgreSQL (modelo entidad-relación con claves foráneas y relaciones entre tablas).
 
-spring-boot-microservice-4-eureka
-Servidor de descubrimiento que permite el registro dinámico de los microservicios, facilitando la escalabilidad y tolerancia a fallos mediante Netflix Eureka.
+Frontend: Integración con API Gateway para enrutar las solicitudes a los microservicios correspondientes.
 
-🔐 Seguridad y Autenticación
-Gestión de autenticación y autorización con Spring Security y JWT (JSON Web Tokens).
+API Gateway: Uso de Spring Security para autenticación y autorización con JWT.
 
-Registro y login de usuarios.
+🚀 Funcionalidades destacadas:
 
-Cifrado de contraseñas utilizando el algoritmo BCrypt.
+Microservicio de inmuebles: Gestión completa de inmuebles con operaciones CRUD utilizando JPA y conexión a bases de datos.
 
-⚙️ Tecnologías Utilizadas
-Spring Boot
+Microservicio de compras: Gestión de compras asociadas a los inmuebles con integraciones en tiempo real.
 
-Spring Cloud (Eureka, OpenFeign)
+API Gateway: Gestión centralizada de rutas y validación de seguridad mediante JWT.
 
-Spring Security + JWT
+Eureka Server: Descubrimiento de servicios para facilitar la escalabilidad y la tolerancia a fallos.
 
-JPA/Hibernate
+🗃️ Base de datos:
 
-MySQL / PostgreSQL
+Tablas: Inmuebles, compras, usuarios, roles, logs de auditoría.
 
-API Gateway
+Datos poblados: Información de inmuebles, compras previas, usuarios registrados, entre otros.
 
-Maven
+🔐 Seguridad y Autenticación:
+
+JWT (JSON Web Tokens) para la autenticación y autorización de usuarios.
+
+Spring Security para la gestión de seguridad en todos los microservicios.
+
+Cifrado de contraseñas con el algoritmo BCrypt para mayor protección.
+
+⚙️ Tecnologías utilizadas:
+
+Spring Boot: Framework para desarrollar microservicios.
+
+Spring Cloud: Incluye Eureka para descubrimiento de servicios y OpenFeign para comunicación entre microservicios.
+
+Spring Security: Autenticación y autorización.
+
+JPA/Hibernate: ORM para la gestión de las bases de datos.
+
+MySQL / PostgreSQL: Bases de datos relacionales.
+
+Maven: Para la gestión de dependencias y construcción del proyecto.
