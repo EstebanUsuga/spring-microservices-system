@@ -1,6 +1,6 @@
 Aplicación distribuida desarrollada con Spring Boot, compuesta por varios microservicios independientes para gestionar inmuebles, compras y autenticación de usuarios. Cada microservicio se comunica mediante API REST, permitiendo una arquitectura modular, escalable y de fácil mantenimiento.
 
-✨ Tecnologías principales:
+Tecnologías principales:
 
 Backend: Java + Spring Boot (Spring Cloud, Spring Security, Spring Data JPA, Spring MVC).
 
@@ -10,7 +10,7 @@ Frontend: Integración con API Gateway para enrutar las solicitudes a los micros
 
 API Gateway: Uso de Spring Security para autenticación y autorización con JWT.
 
-🚀 Funcionalidades destacadas:
+Funcionalidades destacadas:
 
 Microservicio de inmuebles: Gestión completa de inmuebles con operaciones CRUD utilizando JPA y conexión a bases de datos.
 
@@ -20,13 +20,13 @@ API Gateway: Gestión centralizada de rutas y validación de seguridad mediante 
 
 Eureka Server: Descubrimiento de servicios para facilitar la escalabilidad y la tolerancia a fallos.
 
-🗃️ Base de datos:
+🗃Base de datos:
 
 Tablas: Inmuebles, compras, usuarios, roles, logs de auditoría.
 
 Datos poblados: Información de inmuebles, compras previas, usuarios registrados, entre otros.
 
-🔐 Seguridad y Autenticación:
+Seguridad y Autenticación:
 
 JWT (JSON Web Tokens) para la autenticación y autorización de usuarios.
 
@@ -34,7 +34,7 @@ Spring Security para la gestión de seguridad en todos los microservicios.
 
 Cifrado de contraseñas con el algoritmo BCrypt para mayor protección.
 
-⚙️ Tecnologías utilizadas:
+Tecnologías utilizadas:
 
 Spring Boot: Framework para desarrollar microservicios.
 
